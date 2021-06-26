@@ -1,3 +1,13 @@
+:root {
+  /*========== Colors ==========*/
+  --hue-color: 45;
+
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --font-color: #29292e;
+  --border-color: #e2e2e2;
+  --answered-color: #737380;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +16,7 @@
 
 body {
   background: #f8f8f8;
-  color: #29292e;
+  color: var(--font-color);
 }
 
 body,

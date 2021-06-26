@@ -1,8 +1,15 @@
+:root {
+  /*========== Colors ==========*/
+  --hue-color: 45;
+
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+}
+
 .button {
   height: 50px;
   border-radius: 8px;
   font-weight: 500;
-  background: #835afd;
+  background: var(--first-color);
   color: #fff;
   padding: 0 32px;
 
@@ -21,8 +28,8 @@
 
   &.outlined {
     background: #fff;
-    border: 1px solid #835afd;
-    color: #835afd;
+    border: 1px solid var(--first-color);
+    color: var(--first-color);
   }
 
   &:not(:disabled):hover {

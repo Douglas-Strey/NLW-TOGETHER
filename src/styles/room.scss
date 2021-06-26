@@ -1,7 +1,17 @@
+:root {
+  /*========== Colors ==========*/
+  --hue-color: 45;
+
+  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --font-color: #29292e;
+  --border-color: #e2e2e2;
+}
+
 #page-room {
   header {
     padding: 24px;
-    border-bottom: 1px solid #e2e2e2;
+    border-bottom: 1px solid var(--border-color);
 
     .content {
       max-width: 1120px;
@@ -37,12 +47,12 @@
       h1 {
         font-family: "Poppins", sans-serif;
         font-size: 24px;
-        color: #29292e;
+        color: var(--font-color);
       }
 
       span {
         margin-left: 16px;
-        background: #e559f9;
+        background: var(--first-color);
         border-radius: 9999px;
         padding: 8px 16px;
         color: #fff;
@@ -81,7 +91,7 @@
 
           span {
             margin-left: 8px;
-            color: #29292e;
+            color: var(--font-color);
             font-weight: 500;
             font-size: 14px;
           }
@@ -89,13 +99,13 @@
 
         > span {
           font-size: 14px;
-          color: #737380;
+          color: var(--first-color-second);
           font-weight: 500;
 
           button {
             background: transparent;
             border: 0;
-            color: #835afd;
+            color: var(--first-color);
             text-decoration: underline;
             font-size: 14px;
             font-weight: 500;
