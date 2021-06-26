@@ -2,6 +2,8 @@
 
 Projeto criado na [NLW] Together, voltado para o gerenciamento de perguntas e respostas. Nesta aplicação é possível a criação de salas individuis (após autenticação com o Google), possuindo um nome e um código único de acesso. Nela é possível que os usuários criem perguntas e deem likes nas mesmas. O admin pode deixar alguma pergunta em highlight, marcar como respondida e excluir perguntas.
 
+<img width="1920" height="915" src="src/assets/toREADME/App-preview.png">
+
 ## 🚀 Começando
 
 O projeto inteiro foi desenvolvido utilizando o [ReacJS](https://reactjs.org/) e como banco de dados foi utilizado Realtime Database do [Firebase](https://firebase.google.com/).
