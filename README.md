@@ -1,6 +1,6 @@
 # Letmeask
 
-Projeto criado na [NLW] Together, voltado para o gerenciamento de perguntas e respostas. Nesta aplicação é possível a criação de salas individuis (após autenticação com o @Google), possuindo um nome e um código único de acesso. Nela é possível que os usuários criem perguntas e deem likes nas mesmas. O admin pode deixar alguma pergunta em highlight, marcar como respondida e excluir perguntas.
+Projeto criado na [NLW] Together, voltado para o gerenciamento de perguntas e respostas. Nesta aplicação é possível a criação de salas individuis (após autenticação com o Google), possuindo um nome e um código único de acesso. Nela é possível que os usuários criem perguntas e deem likes nas mesmas. O admin pode deixar alguma pergunta em highlight, marcar como respondida e excluir perguntas.
 
 ## 🚀 Começando
 
@@ -18,23 +18,30 @@ Possuir uma conta no Google para autenticação na plataforma.
 
 _OBS: Não se faz necessária a autenticação com o Google para visualização das perguntas._
 
-### 🔧 Como usar?
+### 🔧 Como usar? (Admin)
 
-Vamos ao passo-a-passo para o admin da sala
+Vamos ao passo-a-passo para o admin da sala:
 
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
+Em primeiro:
 
 ```
-Até finalizar
+Deve-se clicar no botão "Crie sua sala com o Google" e fazer login com uma conta Google.
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+![Imagem mostrando local para apertar](https://prnt.sc/16xo0mu)
+
+Após realizada a autenticação com a conta Google, é possível dar o nome da sala:
+
+```
+Para isso, clique no campo "Nome da sala" e dê um nome de sua preferência.
+
+Após dar o nome a sala, é só clicar em "Criar sala" e você será redirecionado para a sala de administrador.
+```
+
+Nela é possível copiar o código da sala (Localizado no canto superior direito) clicando em cima dele.
+O código então, deve ser enviado as pessoas para que possam entrar na sala criada.
+
+### 🔧 Como usar? (Usuário)
 
 ## ⚙️ Executando os testes
 
